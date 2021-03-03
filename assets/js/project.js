@@ -1,35 +1,35 @@
 const project = [
     {
         id : 1,
-        img : "assets/img/work1.jpg",
+        img : "./assets/img/work1.jpg",
         title : "Mohammad Abbas",
         cardsub : "Someonssse name",
         descrpt : "Lorem ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
         id : 2,
-        img : "assets/img/work2.jpg",
+        img : "./assets/img/work2.jpg",
         title : "Someonssse name",
         cardsub : "Someonssse name",
         descrpt : "Lorem ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
         id : 3,
-        img : "assets/img/work3.jpg",
+        img : "./assets/img/work3.jpg",
         title : "Someonssse name",
         cardsub : "Someonssse name",
         descrpt : "Lorem ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
         id : 4,
-        img : "assets/img/work4.jpg",
+        img : "./assets/img/work4.jpg",
         title : "Someonssse name",
         cardsub : "Someonssse name",
         descrpt : "Lorem ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
         id : 5,
-        img : "assets/img/work5.jpg",
+        img : "./assets/img/work5.jpg",
         title : "Someonssse name",
         cardsub : "Someonssse name",
         descrpt : "Lorem ipsum dolor sit amet consectetur adipisicing elit."
@@ -37,7 +37,7 @@ const project = [
     
     {
         id : 6,
-        img : "assets/img/work6.jpg",
+        img : "./assets/img/work6.jpg",
         title : "Someonssse name",
         cardsub : "Someonssse name",
         descrpt : "Lorem ipsum dolor sit amet consectetur adipisicing elit."
