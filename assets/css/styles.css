@@ -469,7 +469,7 @@ img{
 }
 
 .hero-image {
-  background-image:  url("~/assets/img/banner3.jpg");
+  background-image:  url("/assets/img/banner3.jpeg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -479,7 +479,7 @@ img{
 
 
 .hero-image2 {
-  background-image:  url("~/assets/img/banner4.jpg");
+  background-image:  url("/assets/img/banner4.jpeg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
