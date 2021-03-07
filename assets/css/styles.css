@@ -620,3 +620,78 @@ label a.active{
 .logos2 a{
   color: #1c1c1c;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .hero-image {
+    background-image:  url("https://github.com/abbas-sudo/portfolio/raw/master/assets/img/banner3.jpg");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  
+  .hero-image2 {
+    background-image:  url("https://github.com/abbas-sudo/portfolio/raw/master/assets/img/banner4.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
+  .hero-text {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text p {
+   font-size: 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 30px !important;
+   }
+  
+  .hero-text span{
+      color:#007bff;
+      font-weight: bold;
+ }
+
+ .resbtn{
+   width: 45% !important;
+ }
+
+
+ .logos{
+  position: absolute;
+  top: 90%;
+  left: 50.7%;
+  font-size: 23px;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.logos i{
+  
+  margin-left: 5px;
+}
+
+.logos a{
+  color: white;
+}
+
+.logos i:hover{
+  color:#007bff;
+  font-size: 35px;
+  
+}
