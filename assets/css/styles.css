@@ -701,6 +701,11 @@ label a.active{
 }
 
 
+
+.modechanger{
+  display: none;
+}
+
 .box{
   margin-left: 2rem!important;
 }
