@@ -75,11 +75,13 @@ $(function () {
         var darkMode = document.getElementById('dark-change');
         var logo = document.getElementById('logo');
         var changin = document.getElementById('home');
+        var timeline = document.getElementById('timeline')
         darkMode.addEventListener('click', function(){
           console.log(changin)
             darkMode.classList.toggle('active');
             changin.classList.toggle('hero-image2');
             content.classList.toggle('main-container');
             logo.classList.toggle('logos2');
+            timeline.classList.toggle('colortoggle');
 
         })
