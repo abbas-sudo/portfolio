@@ -475,23 +475,47 @@ img{
   .timeline div img{
     width: 50px;
     height: 50px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
   .timeline div p{
     margin-left: 5px;
      margin-bottom: 0px;
   }
-
+  
   .zero-container{
     border-top-right-radius: 0px !important;
     border-end-start-radius: 0px !important;
+  }
+
+  .zero-container h1{
+    background-color: white;
+    color: black;
+    width: 17%;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    top: -10%;
+    left: 106%;
+    margin-bottom: -35px;
   }
   .first-container{
     border-end-end-radius: 0px !important;
     border-top-right-radius: 0px !important;
     border-top: none !important;
-    margin-left: -27px !important;
+    margin-left: -25px !important;
+  }
+
+  .first-container h1{
+    background-color: white;
+    color: black;
+    width: 17%;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    top: -10%;
+    left: -23%;
+    margin-bottom: -35px;
   }
 
   .second-container{
@@ -500,16 +524,55 @@ img{
     border-top: none !important;
   }
 
+  .second-container h1{
+    background-color: white;
+    color: black;
+    width: 17%;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    top: -10%;
+    left: 106%;
+    margin-bottom: -35px;
+  }
+
+
   .third-container{
     border-end-end-radius: 0px !important;
     border-top-right-radius: 0px !important;
-    margin-left: -27px !important;
+    margin-left: -25px !important;
+    border-top: none !important;
+
+  }
+
+  .third-container h1{
+    background-color: white;
+    color: black;
+    width: 17%;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    top: -10%;
+    left: -23%;
+    margin-bottom: -35px;
   }
 
   .four-container{
     border-top-left-radius: 0px !important;
     border-end-end-radius: 0px !important;
+    border-top: none !important;
+  }
 
+  .four-container h1{
+    background-color: white;
+    color: black;
+    width: 17%;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    top: -10%;
+    left: 106%;
+    margin-bottom: -35px;
   }
 
 }
