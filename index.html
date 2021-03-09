@@ -35,7 +35,8 @@
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#timeline" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -70,7 +71,7 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/about.png" alt="">
+                        <img src="https://github.com/abbas-sudo/portfolio/raw/master/assets/img/about.png" alt="">
                     </div>
                     
                     <div>
@@ -178,12 +179,12 @@
 
             <!-- =====================Timeline==================== -->
                         
-                        <section>
-                            <div class="container timeline colortoggle" id="timeline">
+                        <section class="work section" id="timeline">
+                            <div class="container timeline colortoggle" >
                                 <h2 class="section-title">Education</h2>
                                 <hr class="w-25 text-center"/>
                                 <div class="container zero-container" style="border-top: 0px; border-left: 0px;">
-                                    <img src="./assets/img/integral.png"/>
+                                    <img src="https://github.com/abbas-sudo/portfolio/raw/master/assets/img/integral2.png"/>
                                     <p>2021</p>
                                     <h1>5</h1>
                                     <p>Master Of Computer Application</p>
@@ -199,7 +200,7 @@
                                     <p>Cantt, Varanasi - India</p>
                                 </div>
                                 <div class="container second-container" style="border-left: 0px;">
-                                    <img src="./assets/img/5a3a185132ceb1.89894673151375675320812609.png"/>
+                                    <img src="./assets/img/navodaya.png"/>
                                     <p>2016</p>
                                     <h1>3</h1>
                                     <p>Navodaya Institute of Technology</p>
@@ -227,8 +228,8 @@
 
 
             <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work <i class="bi bi-twitter"></i></i></h2>
+            <section class="work section" id="projects">
+                <h2 class="section-title">Project's <i class="bi bi-twitter"></i></i></h2>
 
                 <div class="work__container bd-grid box" id="changin">
                                         
@@ -246,13 +247,15 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
+                    <form method="POST" action="https://formsubmit.co/abbasialimohd@gmail.com" class="contact__form" id="contact">
+                        <input type="text" name="name" placeholder="Name" class="contact__input">
+                        <input type="mail" name="email" placeholder="Email" class="contact__input">
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <!-- <input type="button" value="Submit" class="contact__button button"> -->
+                        <button type="submit" class="contact__button button">Submit</button>
                     </form>
                 </div>
+                <div id="status"></div>
             </section>
         </main>
 

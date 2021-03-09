@@ -357,6 +357,8 @@ img{
   margin-left: auto;
 }
 
+
+
 /* ===== FOOTER =====*/
 .footer{
   opacity: 0.9;
@@ -401,6 +403,7 @@ img{
     height: calc(var(--header-height) + 1rem);
   }
   .nav__list{
+    margin-right: -130px;
     display: flex;
     padding-top: 0;
   }
@@ -415,6 +418,7 @@ img{
     color: #fff;
   }
 
+  
   .home{
     height: 100vh;
   }

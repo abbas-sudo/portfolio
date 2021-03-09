@@ -29,7 +29,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
-    duration: 2000,
+    duration: 1700,
     reset: true
 });
 
@@ -50,11 +50,11 @@ sr.reveal('.skills__text',{});
 sr.reveal('.skills__data',{interval: 200}); 
 sr.reveal('.skills__img',{delay: 600});
 
-/*SCROLL WORK*/
+/*SCROLL Projecyt*/
 sr.reveal('.work__img',{interval: 200}); 
 
-/*SCROLL CONTACT*/
-sr.reveal('.contact__input',{interval: 200}); 
+// /*SCROLL CONTACT*/
+// sr.reveal('.contact__input',{interval: 200}); 
 
 var typed = new Typed(".typing", {
     strings: ["Student", "Front-End Developer", "Freelancer"],
@@ -71,17 +71,4 @@ $(function () {
   });
 
 
-        var content = document.getElementById('main-container');
-        var darkMode = document.getElementById('dark-change');
-        var logo = document.getElementById('logo');
-        var changin = document.getElementById('home');
-        var timeline = document.getElementById('timeline')
-        darkMode.addEventListener('click', function(){
-          console.log(changin)
-            darkMode.classList.toggle('active');
-            changin.classList.toggle('hero-image2');
-            content.classList.toggle('main-container');
-            logo.classList.toggle('logos2');
-            timeline.classList.toggle('colortoggle');
-
-        })
+        
