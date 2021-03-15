@@ -1,7 +1,7 @@
 const project = [
     {
         id : 1,
-        img : "../assets/img/portfolio.png",
+        img : "./assets/img/portfolio.png",
         title : "Portfolio",
         cardsub : "HTML + CSS + JS + BOOTSTRAP",
         descrpt : "I created this website so I could showcase all my projects and education.",
@@ -10,7 +10,7 @@ const project = [
     },
     {
         id : 2,
-        img : "../assets/img/recipe.png",
+        img : "./assets/img/recipe.png",
         title : "Recipe Guide",
         cardsub : "React Js + API",
         descrpt : "A website build on react js with Recipe API for serving the Recipes according to the user search.",
@@ -19,7 +19,7 @@ const project = [
     },
     {
         id : 3,
-        img : "../assets/img/covid.png",
+        img : "./assets/img/covid.png",
         title : "Corona Tracker",
         cardsub : "React Js + API + Bootstrap5",
         descrpt : "Corona Tracker thats show the current stat's of total corana cases by countries and world.",
@@ -28,7 +28,7 @@ const project = [
     },
     {
         id : 4,
-        img : "../assets/img/food.png",
+        img : "./assets/img/food.png",
         title : "Restaurant E-Commerce",
         cardsub : "HTML + SASS",
         descrpt : "A E-commerce website build on pure SASS to showcase my CSS preprosessor Skills. ",
