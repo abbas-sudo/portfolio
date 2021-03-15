@@ -1,7 +1,7 @@
 const project = [
     {
         id : 1,
-        img : "./img/portfolio.png",
+        img : "../img/portfolio.png",
         title : "Portfolio",
         cardsub : "HTML + CSS + JS + BOOTSTRAP",
         descrpt : "I created this website so I could showcase all my projects and education.",
