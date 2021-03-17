@@ -58,7 +58,7 @@ sr.reveal('.work__img',{interval: 200});
 // sr.reveal('.contact__input',{interval: 200}); 
 
 var typed = new Typed(".typing", {
-    strings: ["Student", "Front-End Developer", "Freelancer"],
+    strings: ["Student", "Front-End Developer", "Fresher"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true

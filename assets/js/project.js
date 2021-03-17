@@ -35,21 +35,6 @@ const project = [
         github : "https://github.com/abbas-sudo/restaurants-SASS",
         launch: "https://abbas-sudo.github.io/restaurants-SASS/"
     }
-    // {
-    //     id : 5,
-    //     img : "https://github.com/abbas-sudo/portfolio/raw/master/assets/img/work5.jpg",
-    //     title : "Someonssse name",
-    //     cardsub : "Someonssse name",
-    //     descrpt : "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    // },
-    
-    // {
-    //     id : 6,
-    //     img : "https://github.com/abbas-sudo/portfolio/raw/master/assets/img/work6.jpg",
-    //     title : "Someonssse name",
-    //     cardsub : "Someonssse name",
-    //     descrpt : "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    // }
 ];
 
 const img = document.getElementById("cardimg");
