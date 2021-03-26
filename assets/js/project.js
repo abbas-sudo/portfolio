@@ -26,8 +26,17 @@ const project = [
         github : "https://github.com/abbas-sudo/corona-tracker",
         launch: "https://abbas-sudo.github.io/corona-tracker/"
     },
-    {
+     {
         id : 4,
+        img : "./assets/img/covid.png",
+        title : "Weather Application",
+        cardsub : "React Js + API + SASS",
+        descrpt : "React Js App that will show the live tempreature of the cities around the world.",
+        github : "https://github.com/abbas-sudo/Weather-React-App",
+        launch: "https://abbas-sudo.github.io/Weather-React-App/"
+    },
+    {
+        id : 5,
         img : "./assets/img/food.png",
         title : "Restaurant E-Commerce",
         cardsub : "HTML + SASS",
