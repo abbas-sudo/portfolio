@@ -28,7 +28,7 @@ const project = [
     },
      {
         id : 4,
-        img : "./assets/img/covid.png",
+        img : "./assets/img/weather.png",
         title : "Weather Application",
         cardsub : "React Js + API + SASS",
         descrpt : "React Js App that will show the live tempreature of the cities around the world.",
