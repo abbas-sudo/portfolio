@@ -8,17 +8,8 @@ const project = [
         github : "https://github.com/abbas-sudo/portfolio",
         launch: "https://abbas-sudo.github.io/portfolio/"
     },
-    {
+     {
         id : 2,
-        img : "./assets/img/recipe.png",
-        title : "Recipe Guide",
-        cardsub : "React Js + API",
-        descrpt : "A website build on react js with Recipe API for serving the Recipes according to the user search.",
-        github : "https://github.com/abbas-sudo/React-API-Recipe",
-        launch: "https://abbas-sudo.github.io/React-API-Recipe/"
-    },
-    {
-        id : 3,
         img : "./assets/img/covid.png",
         title : "Corona Tracker",
         cardsub : "React Js + API + Bootstrap5",
@@ -26,8 +17,26 @@ const project = [
         github : "https://github.com/abbas-sudo/corona-tracker",
         launch: "https://abbas-sudo.github.io/corona-tracker/"
     },
-     {
+    {
+        id : 3,
+        img : "./assets/img/covid.png",
+        title : "Authentication With React ",
+        cardsub : "React Js + Auth0",
+        descrpt : "A Simple Application made using Auth0 hooks for authetication user through google and rendering details on the Application",
+        github : "https://github.com/abbas-sudo/corona-tracker",
+        launch: "https://abbas-sudo.github.io/corona-tracker/"
+    },
+    {
         id : 4,
+        img : "./assets/img/recipe.png",
+        title : "Recipe Guide",
+        cardsub : "React Js + API",
+        descrpt : "A website build on react js with Recipe API for serving the Recipes according to the user search.",
+        github : "https://github.com/abbas-sudo/React-API-Recipe",
+        launch: "https://abbas-sudo.github.io/React-API-Recipe/"
+    },
+     {
+        id : 5,
         img : "./assets/img/weather.png",
         title : "Weather Application",
         cardsub : "React Js + API + SASS",
@@ -36,7 +45,7 @@ const project = [
         launch: "https://abbas-sudo.github.io/Weather-React-App/"
     },
     {
-        id : 5,
+        id : 6,
         img : "./assets/img/food.png",
         title : "Restaurant E-Commerce",
         cardsub : "HTML + SASS",
