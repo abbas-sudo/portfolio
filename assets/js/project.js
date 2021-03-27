@@ -19,12 +19,12 @@ const project = [
     },
     {
         id : 3,
-        img : "./assets/img/covid.png",
+        img : "./assets/img/auth.png",
         title : "Authentication With React ",
         cardsub : "React Js + Auth0",
         descrpt : "A Simple Application made using Auth0 hooks for authetication user through google and rendering details on the Application",
-        github : "https://github.com/abbas-sudo/corona-tracker",
-        launch: "https://abbas-sudo.github.io/corona-tracker/"
+        github : "https://github.com/abbas-sudo/React-with-Auth0",
+        launch: "https://abbas-sudo.github.io/React-with-Auth0/"
     },
     {
         id : 4,
